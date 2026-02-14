@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Filter, Eye, Trash2, Edit2, Check, X, RefreshCw } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:3001/api/quotes';
+const API_BASE_URL = 'https://rabbit-epcrhpbjczbxcwas.southindia-01.azurewebsites.net/api/quotes';
 
 type QuoteId = string;
 
